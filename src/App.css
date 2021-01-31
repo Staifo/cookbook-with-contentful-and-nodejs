@@ -1,0 +1,157 @@
+
+.root {display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  
+  }
+  
+  h2 {
+   margin:2%;
+  }
+  
+  div > img {
+  
+    margin: 6%;
+    box-shadow: 0 8px 6px -6px black;
+  
+  
+  } 
+  
+  .mainDiv {
+    border:10px solid greenyellow;
+    display: flex;
+      flex-direction: column;
+      display: block;
+      text-align: center;
+    padding:10px;
+   
+    
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-image: url(./images/background1.jpg);
+   
+  }
+  
+  
+  .daily {
+    color: greenyellow;
+    font-size: 100px;
+    text-shadow: 2px 2px white;
+    
+  }
+  
+  .cious {
+    color: black;
+    text-shadow: 2px 2px white;
+  }
+  
+  .logo:hover {
+    background-color: lightgrey;
+    display: inline-block;
+  }
+  
+  .inputDiv {
+    
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgrey;
+    align-items: center;
+   
+  }
+  
+  .description {
+    flex:1;
+    border-right: 2px solid green;
+    border-left: 2px solid green;
+    padding: 20px;
+    background-color: rgba(250, 235, 215, 0.329);
+    border-radius: 0.3em;
+    margin: 2%;
+    box-shadow: 0 8px 6px -6px black;
+  
+  }
+  
+  .ingredients {
+    flex:1;
+    border-right: 2px solid green;
+    border-left: 2px solid green;
+    padding: 20px;
+    background-color: rgba(250, 235, 215, 0.329);
+    border-radius: 0.3em;
+    margin: 1em;
+    box-shadow: 0 8px 6px -6px black;
+    margin: 2%;
+  
+    
+  }
+  
+  .howToPrepare {
+    flex:1;
+    border-right: 2px solid green;
+    border-left: 2px solid green;
+    padding: 20px;
+    background-color: rgba(250, 235, 215, 0.329);
+    border-radius: 0.3em;
+    margin: 1em;
+    box-shadow: 0 8px 6px -6px black;
+    margin: 2%;
+  }
+  
+  .allRecipes {
+    display: flex;
+  
+  }
+  
+  .Link{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+   
+  
+  }
+  
+  .LinkDaily:hover
+  {
+    text-decoration: none;
+  }
+  
+  
+  
+  
+  .Link:hover {
+    background-color: greenyellow;
+    text-decoration: none;
+    
+  }
+  .daily1 {
+  color:lawngreen;
+  font-weight: bold;
+  font-size: 40px;
+  }
+  
+  .middle {
+  margin-right: 150px;
+  text-shadow: 2px 2px white;
+  }
+  
+  .footer-bottom {
+  margin-top: 80px;
+   margin-left:100px;
+  }
+  
+  
+  
+  
+  .all {
+    background-image: url(./images/background1.jpg);
+    background-color: lightgrey;
+  display: flex;
+   justify-content: space-between;
+   width: 100%;
+  }
