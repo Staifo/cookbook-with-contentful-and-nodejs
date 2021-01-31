@@ -1,5 +1,5 @@
 {
-  "name": "react-cookbook-app",
+  "name": "cookbook_with_contentful_and_nodejs",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
